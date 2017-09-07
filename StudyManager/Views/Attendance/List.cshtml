@@ -1,0 +1,36 @@
+﻿@using StudyManager.ViewModels
+@model List<StudyManager.ViewModels.AttendanceRecordVM>
+
+@{
+    ViewBag.Title = "Record of Attendance";
+}
+
+<h2>Record of Attendance</h2>
+
+
+<table class="table table-striped table-hover ">
+    <thead>
+    <tr class="success">
+        <th>Date</th>
+        <th>Day</th>
+        <th>Course Name</th>
+        <th>Attendance</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.AttDateFormatted</td>
+            <td>@item.DayOfWeek</td>
+            <td>@item.CourseName</td>
+            <td>@item.AttRecord</td>
+        </tr>
+
+    }
+    </tbody>
+</table> 
+
+
+
+

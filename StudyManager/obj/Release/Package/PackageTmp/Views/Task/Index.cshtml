@@ -1,0 +1,33 @@
+﻿@using StudyManager.Models
+@model List<StudyManager.Models.Course>
+
+@{
+    ViewBag.Title = "Task Manager";
+}
+
+<h2>Task Manager</h2>
+
+<form action="/Task/Create/" method="post">
+    <div class="form-group">
+        <label for="CourseName">Course Name:</label>
+        @*name=CourseCode will be the value of this form. It have to be the match with the prop in Model.*@
+        <select name="CourseCode" class="form-control" id="CourseName"> 
+            @foreach (var courseName in Model)
+            {
+                <option value="@courseName.CourseCode">@courseName.CourseName</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="DueDate">Due:</label>
+        <input type="datetime-local" name="DueDate" id="DueDate">
+    </div>
+    <div class="form-group">
+        <label for="TaskDesc">Description:</label>
+        <textarea class="form-control" rows="3" id="TaskDesc" name="TaskDescription"></textarea>
+    </div>
+    <button type="submit" class="btn btn-info">Submit</button>
+</form>
+
+
+
