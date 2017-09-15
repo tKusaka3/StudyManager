@@ -21,10 +21,14 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/Attendance/Index">Attendance</a></li>
-                    <li><a href="/Attendance/List">Record of Attendance</a></li>
-                    <li><a href="/Task/Index">Create a Task</a></li>
-                    <li><a href="/Task/List">Task List</a></li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li><a href="/Attendance/Index">Attendance</a></li>
+                        <li><a href="/Attendance/List">Record of Attendance</a></li>
+                        <li><a href="/Task/Index">Create a Task</a></li>
+                        <li><a href="/Task/List">Task List</a></li>
+                        <li><a href="/Login/Logout">Logout</a></li>
+                    }
                 </ul>
             </div>
         </div>

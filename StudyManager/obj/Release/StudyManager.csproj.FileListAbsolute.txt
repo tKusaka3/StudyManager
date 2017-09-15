@@ -45,3 +45,12 @@ C:\Users\PC User\documents\visual studio 2017\Projects\StudyManager\StudyManager
 C:\Users\PC User\documents\visual studio 2017\Projects\StudyManager\StudyManager\obj\Release\StudyManager.dll
 C:\Users\PC User\documents\visual studio 2017\Projects\StudyManager\StudyManager\obj\Release\StudyManager.pdb
 C:\Users\PC User\documents\visual studio 2017\Projects\StudyManager\StudyManager\obj\Release\StudyManager.csprojResolveAssemblyReference.cache
+C:\Users\PC User\Documents\Visual Studio 2017\Projects\StudyManager\StudyManager\bin\Microsoft.Owin.dll
+C:\Users\PC User\Documents\Visual Studio 2017\Projects\StudyManager\StudyManager\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\PC User\Documents\Visual Studio 2017\Projects\StudyManager\StudyManager\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\PC User\Documents\Visual Studio 2017\Projects\StudyManager\StudyManager\bin\Microsoft.Owin.Security.dll
+C:\Users\PC User\Documents\Visual Studio 2017\Projects\StudyManager\StudyManager\bin\Owin.dll
+C:\Users\PC User\Documents\Visual Studio 2017\Projects\StudyManager\StudyManager\bin\Microsoft.Owin.xml
+C:\Users\PC User\Documents\Visual Studio 2017\Projects\StudyManager\StudyManager\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\PC User\Documents\Visual Studio 2017\Projects\StudyManager\StudyManager\bin\Microsoft.Owin.Security.xml
+C:\Users\PC User\Documents\Visual Studio 2017\Projects\StudyManager\StudyManager\bin\Microsoft.Owin.Security.Cookies.xml

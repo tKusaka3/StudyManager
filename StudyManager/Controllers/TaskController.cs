@@ -10,6 +10,8 @@ using StudyManager.ViewModels;
 
 namespace StudyManager.Controllers
 {
+    [Authorize]
+
     public class TaskController : Controller
     {
         // GET: Task
